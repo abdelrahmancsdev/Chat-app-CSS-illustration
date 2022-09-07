@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   padding: 0px;
   margin: 0px;
@@ -108,17 +107,17 @@ main .container .chat-app .chat-header::before, main .container .chat-app .chat-
           transform: translateY(-50%);
 }
 main .container .chat-app .chat-header::before {
-  content: "﹀";
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
+  content: "<";
   left: 15px;
   padding-right: 5px;
   font-size: 14px;
   font-weight: bold;
 }
 main .container .chat-app .chat-header::after {
-  content: "︙";
-  right: 20px;
+  content: "...";
+  right: 10px;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
   font-family: sans-serif;
 }
 main .container .chat-app .user {
@@ -292,15 +291,6 @@ main .container .chat-app .chat-content .submit {
   right: 16px;
   bottom: 16px;
   font-family: "rubik";
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
-}
-main .container .chat-app .chat-content .submit::before {
-  content: "⌃";
-  font-size: 20px;
-  position: absolute;
-  bottom: -4px;
-  right: 3px;
 }
 main .container .description h1 {
   font-weight: 500;

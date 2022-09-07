@@ -109,17 +109,16 @@ main {
           transform: translateY(-50%);
         }
         &::before {
-          content: "﹀";
-          transform: rotate(90deg);
+          content: "<";
           left: 15px;
           padding-right: 5px;
           font-size: 14px;
           font-weight: bold;
         }
         &::after {
-          content: "︙";
-          right: 20px;
-          // transform: rotate(90deg);
+          content: "...";
+          right: 10px;
+          transform: rotate(90deg);
           font-family: sans-serif;
         }
       }
@@ -241,14 +240,14 @@ main {
           right: 16px;
           bottom: 16px;
           font-family: "rubik";
-          transform: rotate(90deg);
-          &::before {
-            content: "⌃";
-            font-size: 20px;
-            position: absolute;
-            bottom: -4px;
-            right: 3px;
-          }
+          // transform: rotate(90deg);
+          // &::before {
+          //   content: "⌃";
+          //   font-size: 20px;
+          //   position: absolute;
+          //   bottom: -4px;
+          //   right: 3px;
+          // }
         }
       }
     }

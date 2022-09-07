@@ -9,6 +9,7 @@
   --magenta: hsl(293, 100%, 63%);
   --violet: hsl(264, 100%, 61%);
   --white: hsl(0, 0%, 100%);
+  --animate-duration: 0.5s;
 }
 
 body {
@@ -135,6 +136,7 @@ main .container .chat-app .user {
 }
 main .container .chat-app .user img {
   width: 25px;
+  height: 25px;
   border: 1px solid var(--white);
   border-radius: 50%;
 }
@@ -151,6 +153,7 @@ main .container .chat-app .user .stat {
 main .container .chat-app .chat-content {
   padding: 10px;
   border-radius: 15px;
+  overflow: hidden;
 }
 main .container .chat-app .chat-content .rcvr-msg,
 main .container .chat-app .chat-content .sndr-msg {
@@ -184,6 +187,7 @@ main .container .chat-app .chat-content .sndr-imgs {
 }
 main .container .chat-app .chat-content .sndr-imgs img {
   width: 40px;
+  height: 40px;
   border-radius: 10px;
 }
 main .container .chat-app .chat-content .sndr-msg {
@@ -344,4 +348,48 @@ main .container .description p {
     text-align: center;
     margin-bottom: 50px;
   }
+}
+.d1 {
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+
+.d2 {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+.d3 {
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
+}
+
+.d4 {
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+.d5 {
+  -webkit-animation-delay: 2.5s;
+          animation-delay: 2.5s;
+}
+
+.d6 {
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+
+.d7 {
+  -webkit-animation-delay: 3.5s;
+          animation-delay: 3.5s;
+}
+
+.d8 {
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+}
+
+.d9 {
+  -webkit-animation-delay: 4.5s;
+          animation-delay: 4.5s;
 }/*# sourceMappingURL=main.css.map */

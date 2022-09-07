@@ -17,6 +17,11 @@
       href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <!-- Animate.css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <!-- Main Style -->
     <link rel="stylesheet" href="./css/main.css" />
   </head>
@@ -34,28 +39,46 @@
             </div>
           </header>
           <div class="chat-content">
-            <p class="rcvr-msg">That sounds great. I’d be happy with that.</p>
-            <p class="rcvr-msg">
+            <p class="rcvr-msg animate__animated animate__fadeInLeft">
+              That sounds great. I’d be happy with that.
+            </p>
+            <p class="rcvr-msg animate__animated animate__fadeInLeft d1">
               Could you send over some pictures of your dog, please?
             </p>
             <div class="sndr-imgs">
-              <img src="./images/dog-image-1.jpg" alt="dog-image-1" />
-              <img src="./images/dog-image-2.jpg" alt="dog-image-2" />
-              <img src="./images/dog-image-3.jpg" alt="dog-image-3" />
+              <img
+                src="./images/dog-image-1.jpg"
+                alt="dog-image-1"
+                class="animate__animated animate__fadeInRight d2"
+              />
+              <img
+                src="./images/dog-image-2.jpg"
+                alt="dog-image-2"
+                class="animate__animated animate__fadeInRight d3"
+              />
+              <img
+                src="./images/dog-image-3.jpg"
+                alt="dog-image-3"
+                class="animate__animated animate__fadeInRight d4"
+              />
             </div>
-            <p class="sndr-msg">Here are a few pictures. She’s a happy girl!</p>
-            <p class="sndr-msg">Can you make it?</p>
-            <p class="rcvr-msg">
+            <p class="sndr-msg animate__animated animate__fadeInRight d5">
+              Here are a few pictures. She’s a happy girl!
+            </p>
+            <p class="sndr-msg animate__animated animate__fadeInRight d6">
+              Can you make it?
+            </p>
+            <p class="rcvr-msg animate__animated animate__fadeInLeft d7">
               She looks so happy! The time we discussed works. How long shall I
               take her out for?
             </p>
-            <div class="rcvr-offer">
+            <div class="rcvr-offer animate__animated animate__fadeInLeft d8">
               <label>
                 <input type="radio" name="offer" id="ofr1" /> 30 minute walk
               </label>
               <span>$29</span>
             </div>
-            <div class="rcvr-offer">
+            <div class="rcvr-offer animate__animated animate__fadeInLeft d9">
               <label
                 ><input type="radio" name="offer" id="ofr2" /> 1 hour
                 walk</label

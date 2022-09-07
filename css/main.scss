@@ -36,6 +36,7 @@ $white: var(--white);
   --magenta: hsl(293, 100%, 63%);
   --violet: hsl(264, 100%, 61%);
   --white: hsl(0, 0%, 100%);
+  --animate-duration: 0.5s;
 }
 body {
   font-family: "Rubik", sans-serif;
@@ -128,6 +129,7 @@ main {
         margin-left: 15px;
         img {
           width: 25px;
+          height: 25px;
           border: 1px solid $white;
           border-radius: 50%;
         }
@@ -145,6 +147,7 @@ main {
       .chat-content {
         padding: 10px;
         border-radius: 15px;
+        overflow: hidden;
         .rcvr-msg,
         .sndr-msg {
           padding: 7px;
@@ -166,6 +169,7 @@ main {
           margin: 20px 0px 10px;
           img {
             width: 40px;
+            height: 40px;
             border-radius: 10px;
           }
         }
@@ -306,4 +310,32 @@ main {
       margin-bottom: 50px;
     }
   }
+}
+// Animation Delays
+.d1 {
+  animation-delay: 0.5s;
+}
+.d2 {
+  animation-delay: 1s;
+}
+.d3 {
+  animation-delay: 1.5s;
+}
+.d4 {
+  animation-delay: 2s;
+}
+.d5 {
+  animation-delay: 2.5s;
+}
+.d6 {
+  animation-delay: 3s;
+}
+.d7 {
+  animation-delay: 3.5s;
+}
+.d8 {
+  animation-delay: 4s;
+}
+.d9 {
+  animation-delay: 4.5s;
 }

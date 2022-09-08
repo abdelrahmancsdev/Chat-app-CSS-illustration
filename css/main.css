@@ -19,6 +19,8 @@ body {
 
 main {
   position: relative;
+  min-height: 100vh;
+  overflow: hidden;
 }
 main::before, main::after {
   content: "";
@@ -36,7 +38,7 @@ main::before {
 }
 main::after {
   background-color: hsl(270deg, 20%, 96%);
-  top: 15vh;
+  bottom: 0px;
   right: 0px;
   -webkit-transform: translateX(32%);
           transform: translateX(32%);
@@ -307,6 +309,58 @@ main .container .description p {
   line-height: 1.7;
   font-weight: 400;
   color: hsl(270deg, 7%, 64%);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  min-height: 50px;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 500px;
+  margin: 0 auto;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+footer span {
+  padding: 5px;
+  color: hsl(271deg, 36%, 24%);
+}
+
+footer span:first-child {
+  margin-left: -5px;
+}
+
+footer a {
+  color: var(--magenta);
+  text-decoration: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: var(--violet);
 }
 
 @media (max-width: 1024px) {

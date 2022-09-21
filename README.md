@@ -1,4 +1,4 @@
-# Frontend Mentor - Fylo Data Storage Component solution
+# Frontend Mentor - Chat App CSS Illustration solution
 
 This is a solution to the [Chat App CSS Illustration challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/chat-app-css-illustration-O5auMkFqY). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
